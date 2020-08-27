@@ -1,14 +1,5 @@
-/* add css module styles here (optional) */
-
-.test {
-  margin: 2em;
-  padding: 0.5em;
-  border: 2px solid #000;
-  font-size: 2em;
-  text-align: center;
-}
-
 body {
+  background: red;
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
@@ -30,14 +21,6 @@ code {
 }
 
 .menu-container {
-  display: flex;
-  flex-flow: column wrap;
-  justify-content: center;
-  align-items: start;
-  height: 100%;
-}
-
-.menuItems {
   display: flex;
   flex-flow: column wrap;
   justify-content: center;
@@ -87,7 +70,7 @@ code {
 .text {
   flex-grow: 1;
   overflow: auto;
-  white-space: pre-wrap;
+  white-space: pre;
 }
 
 .nextButton {
