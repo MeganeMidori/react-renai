@@ -9,8 +9,10 @@ const Character = ({ emotions, emotion, id, ...props }) => {
     : defaultEmotion.sprite
 
   return (
-    <Flipped flipId={id} {...props}>
-      <div className={styles.character}>{sprite}</div>
+    <Flipped flipId={id}>
+      <div className={styles.character} {...props}>
+        {sprite}
+      </div>
     </Flipped>
   )
 }
