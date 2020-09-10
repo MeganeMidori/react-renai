@@ -34,12 +34,13 @@ const newGameScript = ({playerName}) => [
   {
     characters: ["mary-neutral"],
     text: "私と一緒にクラスへ行きましょうか？",
-    reply: {
-      type: "select",
-      choices: [
-        { name: "はい！", value: "chapter1", navigate: true },
-      ],
-    },
+    // reply: {
+    //   type: "select",
+    //   choices: [
+    //     { name: "はい！", value: "chapter1", navigate: true },
+    //   ],
+    // },
+    navigateTo: "chapter1",
   },
   // {
   //   ...likesGenki === "true"

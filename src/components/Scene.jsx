@@ -62,7 +62,7 @@ const Scene = ({ gameState, textComponent, script, assets }) => {
         {characters}
         <TextComponent
           history={history}
-          disabled={page.reply || finalPage}
+          disabled={page.reply || (finalPage && !page.navigateTo)}
           updateState={updateState}
           navigateTo={navigateTo}
         >
